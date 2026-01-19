@@ -18,8 +18,11 @@ print the list of alias that you just created: alias -p
 to print only specific alias output: alias -p | cut -d' ' -f2 
 create a file: touch file.txt
 edit a file: nano file.txt
-echo a file: echo file.txt
-delete a file: rm file.txt 
+echo a file name: echo file.txt
+delete a file: rm file.txt
+print content of a file in terminal: cat file.txt
+move a file to different directory: mv file.txt ~/Documents/
+ 
 open a file: file.txt or specify app such as libreoffice file.odt
 move a file to different directory: mv file.txt ~/linux/
 basic help with commands: help
