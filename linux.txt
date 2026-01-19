@@ -1,0 +1,37 @@
+create a shortcut to access root just by typing root: alias root='cd ~'
+list aliases: compgen -a
+
+bulk save aliases
+first laod the bash file: nano ~/.bashrc
+paste something like this depending one what you would like to add: 
+alias root='cd ~'
+alias project='cd /home/sujon/Projects'
+alias jsex='cd ~/Projects/complete-javascript-exercise'
+alias spring='cd ~/Projects/spring-data-analysis-api'
+alias transform='cd ~/Projects/transform-my-raw-data'
+alias sputnik='cd ~/Projects/sputnik-vehicle-hire'
+alias javaex='cd ~/Projects/java-complete-data-structure'
+alias portfolio='cd ~/Projects/sujons.com'
+alias ns='cd ~/Projects/network-and-security' 
+
+print the list of alias that you just created: alias -p
+to print only specific alias output: alias -p | cut -d' ' -f2 
+create a file: touch file.txt
+edit a file: nano file.txt
+echo a file: echo file.txt
+delete a file: rm file.txt 
+open a file: file.txt or specify app such as libreoffice file.odt
+move a file to different directory: mv file.txt ~/linux/
+basic help with commands: help
+help with list all extensive list of commands:compgen -c
+to open an application simply type the name: spotify (although has to match the name stored in compgen -c)
+
+start vscode: code
+start terminal: ctrl+alt+t
+
+save a file in nano: ctrl + o then enter 
+exit nano: ctrl + x
+grep file in specific: compgen -c | grep '^v'
+this will print eveyting in compgen start with v
+
+
